@@ -43,7 +43,7 @@ class StackHandler {
     
     this.topOfStackIndex--;
 
-    // Declara o tamanho do array igual o tamanho do topo da pilha, assim todos os elementos a mais são removidos
+    // Remove the surplus elements of the array by defining its size
     if(this.topOfStackIndex === -1) {
   
       this.stack.length = 0;
